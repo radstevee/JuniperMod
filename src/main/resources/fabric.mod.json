@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "junipermod",
+	"version": "${version}",
+	"name": "Juniper Mod",
+	"description": "Official Juniper server-side utility mod",
+	"authors": [
+		"radstevee"
+	],
+	"contact": {
+		"homepage": "https://radsteve.net/",
+		"sources": "https://github.com/radstevee/JuniperMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/juniper-mod/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"net.radsteve.JuniperMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
